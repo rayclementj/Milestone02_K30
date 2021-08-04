@@ -86,7 +86,7 @@ header.sticky ul li a {
 .banner
 {
     position: relative;
-    min-height: 100vh;
+    min-height: 10vh;
     background-size: cover;
     background :#FFFFFF;
     background-position : right;
@@ -94,7 +94,24 @@ header.sticky ul li a {
     justify-content: space-between;
     align-items: center;
     padding : 100px;
+    font-family: 'Lato', sans-serif;
 }
+
+.banner2
+{
+    position: relative;
+    min-height: 10vh;
+    background-size: cover;
+    background :#FFFFFF;
+    background-position : right;
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 100px;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+}
+
 .banner h2
 {
     font-family: 'Palanquin', sans-serif;
@@ -104,6 +121,17 @@ header.sticky ul li a {
     line-height: 116px;
     color: #6C2424;
 }
+
+.banner2 h2
+{
+    font-family: 'Palanquin', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 116px;
+    color: #6C2424;
+}
+
 
 .btn {
     position: relative;
@@ -119,13 +147,13 @@ header.sticky ul li a {
     border-radius: 2px;
     margin-left: 2px;
     z-index: 40;
-    
+    font-family: 'Lato', sans-serif;
 }
 
 
 
 .btn:hover {
-    background-color: #161616; /* Green */
+    background-color: #531b1b; 
     color: white;
     z-index: 40;
 }
