@@ -1,0 +1,124 @@
+html,body {
+    scroll-behavior: smooth;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header.sticky {
+    background-color: #fff;
+    padding: 20px 100px;
+    text-decoration: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+header .logo {
+    color: #000;
+    margin-left:2px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header.sticky .logo {
+ color: #111111;   
+ text-decoration: none;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0px 15px;
+    color:#000;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+}
+header.sticky ul li a {
+    color: #111111;   
+}
+
+.banner
+{
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background :#FFFFFF;
+    background-position : right;
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 100px;
+}
+.banner h2
+{
+    font-size: 3em;
+    color: #000;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.btn {
+    position: relative;
+    font-weight: 600;
+    background: #fff;
+    color: #000000;
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    margin-left: 8px;
+    z-index: 40;
+    
+}
+
+.btn:hover {
+    background-color: #161616; /* Green */
+    color: white;
+    z-index: 40;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    scroll-behavior: smooth;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    scroll-behavior: smooth;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(59, 59, 59);
+    scroll-behavior: smooth;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+    scroll-behavior: smooth;
+}
