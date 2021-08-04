@@ -17,20 +17,42 @@ header {
 
 header.sticky {
     background-color: #fff;
-    padding: 20px 100px;
+    padding: 30px 100px;
     text-decoration: none;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
-
 header .logo {
-    color: #000;
-    margin-left:2px;
+    position: absolute;
+    width: 186px;
+    height: 23px;
+    left: 30px;
+    top: 24px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 24px;
-    text-transform: uppercase;
+    line-height: 29px;
+    color: #000000;
     text-decoration: none;
-    font-weight: 700;
-    letter-spacing: 2px;
 }
+
+header .logo2 {
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 30px;
+    top: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #EB0A0A;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+
 
 header.sticky .logo {
  color: #111111;   
@@ -38,7 +60,8 @@ header.sticky .logo {
 }
 
 header ul {
-    position: relative;
+    position: static ;
+    margin-right: 120px;
     display: flex;
 }
 
