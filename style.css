@@ -97,17 +97,19 @@ header.sticky ul li a {
 }
 .banner h2
 {
-    font-size: 3em;
-    color: #000;
-    font-weight: 300;
-    line-height: 1.5em;
+    font-family: 'Palanquin', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 116px;
+    color: #6C2424;
 }
 
 .btn {
     position: relative;
     font-weight: 600;
-    background: #fff;
-    color: #000000;
+    background: #6C2424;
+    color: #ffffff;
     margin-top: 20px;
     padding: 8px 15px;
     font-size: 10px;
@@ -115,10 +117,12 @@ header.sticky ul li a {
     text-decoration: none;
     letter-spacing: 2px;
     border-radius: 2px;
-    margin-left: 8px;
+    margin-left: 2px;
     z-index: 40;
     
 }
+
+
 
 .btn:hover {
     background-color: #161616; /* Green */
