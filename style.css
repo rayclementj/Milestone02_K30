@@ -177,3 +177,25 @@ header.sticky ul li a {
     background: #000000;
     scroll-behavior: smooth;
 }
+
+/* Styling Image */ 
+#vaksinDiv {
+    padding-left: 100px;
+}
+
+#vaksinImage {
+    width:30vw;
+    height: auto;
+}
+
+#hospitalDiv {
+    padding-left: 100px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 100px;
+}
+
+#hospitalImage {
+    width:30vw;
+    height: auto;
+}
