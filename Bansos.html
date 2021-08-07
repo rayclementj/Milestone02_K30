@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="linktreestyle.css">
+    <title>Bantuan Sosial</title>
+    </head>
+<body>
+    <!-- Profile picture-->
+    <img src="images/hospital.png" alt="profile picture" class="profile-picture">
+    <!-- Profile name-->
+    <div class="profile-name">Vaksinasi</div>
+    <!-- Links-->
+    <a href="#" class="links">Link 1</a>
+    <a href="#" class="links">Link 2</a>
+    <a href="#" class="links">Link 3</a>
+    <a href="#" class="links">Link 4</a>
+    <a href="#" class="links">Link 5</a>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active')
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
