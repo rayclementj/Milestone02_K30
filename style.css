@@ -1,6 +1,7 @@
-html,body {
+html, body {
     scroll-behavior: smooth;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -21,6 +22,7 @@ header.sticky {
     text-decoration: none;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
+
 header .logo {
     position: absolute;
     width: 186px;
@@ -30,10 +32,12 @@ header .logo {
     font-family: Lato, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 29px;
     color: #000000;
     text-decoration: none;
+    margin-top: 8px;
+    margin-left: 15px;
 }
 
 header .logo2 {
@@ -50,9 +54,9 @@ header .logo2 {
     color: #EB0A0A;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    margin-top: 12px;
+    margin-left: 18px;
 }
-
-
 
 header.sticky .logo {
  color: #111111;   
@@ -73,12 +77,14 @@ header ul li {
 header ul li a {
     position: relative;
     display: inline-block;
-    margin: 0px 15px;
+    margin: 0px 20px;
     color:#000;
     font-weight: 400;
     text-decoration: none;
     font-family: "Poppins",sans-serif;
+    font-size: 20px;
 }
+
 header.sticky ul li a {
     color: #111111;   
 }
@@ -139,18 +145,16 @@ header.sticky ul li a {
     background: #6C2424;
     color: #ffffff;
     margin-top: 20px;
-    padding: 8px 15px;
-    font-size: 10px;
+    padding: 10px 15px;
+    font-size: 11px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-    border-radius: 2px;
+    border-radius: 3px;
     margin-left: 2px;
     z-index: 40;
     font-family: 'Lato', sans-serif;
 }
-
-
 
 .btn:hover {
     background-color: #531b1b; 
@@ -186,6 +190,7 @@ header.sticky ul li a {
 #vaksinImage {
     width:30vw;
     height: auto;
+    margin-top: 150px;
 }
 
 #hospitalDiv {
@@ -198,4 +203,14 @@ header.sticky ul li a {
 #hospitalImage {
     width:30vw;
     height: auto;
+}
+
+.article {
+    line-height: 1.3;
+    letter-spacing: .3px;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

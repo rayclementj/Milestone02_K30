@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en"></html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="linktreestyle.css">
-    <title>Vaksinasi</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="linktreestyle.css">
+        <title>Vaksinasi</title>
     </head>
-<body>
-    <!-- Profile picture-->
-    <img src="images/Vaccine.png" alt="profile picture" class="profile-picture">
-    <!-- Profile name-->
-    <div class="profile-name">Vaksinasi</div>
-    <!-- Links-->
-    <a href="https://pedulilindungi.id/" class="links">Peduli Lindungi <b>(Recommended)</b></a>
-    <a href="https://www.halodoc.com/artikel/bagaimana-cara-mendapatkan-vaksinasi-covid-19" class="links">Halodoc <b>(Link Pendaftaran untuk Beberapa Daerah)</b></a>
-    <a href="https://vaksinasi-corona.jakarta.go.id/" class="links">Corona Jakarta <b>(Khusus Wilayah Jakarta)</b></a>
-    <a href="https://vaksin.loket.com/" class="links">Vaksin Loket <b>(Khusus Wilayah Jakarta)</b></a>
+    <body>
+        <!-- Profile picture-->
+        <img src="images/Vaccine.png" alt="profile picture" class="profile-picture">
+        <!-- Profile name-->
+        <div class="profile-name">Vaksinasi</div>
+        <!-- Links-->
+        <a href="https://pedulilindungi.id/" class="links">Peduli Lindungi <b>(Recommended)</b></a>
+        <a href="https://www.halodoc.com/artikel/bagaimana-cara-mendapatkan-vaksinasi-covid-19" class="links">Halodoc <b>(Link Pendaftaran untuk Beberapa Daerah)</b></a>
+        <a href="https://vaksinasi-corona.jakarta.go.id/" class="links">Corona Jakarta <b>(Khusus Wilayah Jakarta)</b></a>
+        <a href="https://vaksin.loket.com/" class="links">Vaksin Loket <b>(Khusus Wilayah Jakarta)</b></a>
+        <a href="Milestone02_K30.html" class="links">Kembali ke Laman Utama</a>
 
-    <script type="text/javascript">
-        window.addEventListener('scroll',function(){
-            var header = document.querySelector('header');
-            header.classList.toggle('sticky',window.scrollY > 0);
-        });
+        <script type="text/javascript">
+            window.addEventListener('scroll',function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky',window.scrollY > 0);
+            });
 
-        function toggleMenu() {
-            var menuToggle = document.querySelector('.toggle');
-            var menu = document.querySelector('.menu');
-            menuToggle.classList.toggle('active')
-            menu.classList.toggle('active')
-        }
-    </script>
-</body>
+            function toggleMenu() {
+                var menuToggle = document.querySelector('.toggle');
+                var menu = document.querySelector('.menu');
+                menuToggle.classList.toggle('active')
+                menu.classList.toggle('active')
+            }
+        </script>
+    </body>
 </html>
