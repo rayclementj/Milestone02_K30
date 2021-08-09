@@ -157,8 +157,9 @@ header.sticky ul li a {
 }
 
 .btn:hover {
-    background-color: #531b1b; 
-    color: white;
+    background-color:#f5b455;
+    color: #531b1b;
+    font-weight: 800;
     z-index: 40;
 }
 
@@ -213,4 +214,13 @@ header.sticky ul li a {
 h2 {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.hovereffect:hover {
+    font-weight: bold;
+    color: #6C2424;
+}
+
+.bold:hover {
+    font-weight: bold;
 }
