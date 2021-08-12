@@ -217,7 +217,7 @@ h2 {
 }
 
 .hovereffect:hover {
-    font-weight: bold;
+    transform: scale(1.25);
     color:#cc7c44;
 }
 
