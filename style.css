@@ -73,6 +73,11 @@ header ul li {
     position: relative;
     list-style: none;
 }
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
 
 header ul li a {
     position: relative;
@@ -181,6 +186,13 @@ header.sticky ul li a {
 ::-webkit-scrollbar-thumb:hover {
     background: #000000;
     scroll-behavior: smooth;
+}
+
+#Bansos{
+    background-color : #FFF6F6;
+}
+#Rawnap{
+    background-color : #FFF6F6;
 }
 
 /* Styling Image */ 
